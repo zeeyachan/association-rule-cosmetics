@@ -22,7 +22,7 @@ Penelitian ini dipublikasikan pada **Jurnal Restikom (Riset Teknik Informatika d
 ## 📌 Ringkasan Hasil Analisis
 * **Dataset:** 3.000 transaksi penjualan sintetis dengan 5 produk unik (*Face Wash, Toner, Moisturizer, Serum Vitamin C, Sunscreen*).
 * **Frequent Itemsets:** Kedua algoritma (Apriori & FP-Growth) secara konsisten menghasilkan **17 frequent itemset** yang identik pada `min_support = 0.10`.
-* **Efisiensi Komputasi:** Algoritma Apriori mencatatkan waktu eksekusi sebesar `0.0192 detik`, lebih cepat dibandingkan FP-Growth (`0.1525 detik`) pada dataset ini.
+* **Efisiensi Komputasi:** Algoritma Apriori mencatatkan waktu eksekusi sebesar `0.0177 detik`, lebih cepat dibandingkan FP-Growth (`0.3632 detik`) pada dataset ini.
 * **Aturan Asosiasi:** Terbentuk total **52 aturan** (14 aturan *cross-selling* dan 38 aturan *bundling*).
 * **Konsistensi Lift:** Seluruh nilai *lift* telah diverifikasi dan terbukti **100% konsisten secara matematis**.
 
